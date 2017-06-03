@@ -1,0 +1,55 @@
+.left-side	{
+}
+
+.channel-name {
+}
+
+/*.form-group {
+	position: relative;
+	min-height: 70vh;
+}
+.form-control {
+	position: absolute;
+	bottom: 0;
+	padding-top: 10px;
+	width: 100%;
+	left: 0;
+}
+*/
+
+.message {
+	position:fixed;
+	bottom:100px;
+	width: 70%;
+	height: 60px;
+}
+.message-button {
+	position:fixed;
+	bottom:100px;
+	height: 60px;
+	right: 7%;
+}
+
+.message-list{
+	list-style-type: none;
+    display: inline;
+
+}
+
+.message-sender{
+	margin: 0;
+	padding: 0;
+    display: inline;
+
+}
+
+.message-text{
+	margin: 0;
+	padding: 0;
+    display: inline;
+
+}
+
+.channel-name{
+	color: #777;
+}

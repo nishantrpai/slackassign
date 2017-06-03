@@ -1,0 +1,23 @@
+<%= render "header" %>
+
+<div ng-controller="SlackMessageCtrl">
+
+	<div class="container-fluid">
+		<div class="row app-body">
+			<div class="col-md-2 left-side">
+			<!-- left side channel list -->
+				<%= render "slack/channellist" %>
+			</div>
+
+			<div class="col-md-10 right-side">
+			<!--message list-->
+				<%= render "slack/messagelist" %>
+				<%= @code %>
+				<%= @access %>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<%= render "footer" %>
