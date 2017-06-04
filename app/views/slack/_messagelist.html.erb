@@ -1,7 +1,7 @@
 <h2 class="channel.name" ng-if="current">{{current}}</h2>
 
 <ul class="message-list">
-	<li ng-repeat="msg in messages">
+	<li ng-repeat="msg in messages | reverse">
 		<p class="message-sender"> <b>{{msg.user}}</b> </p> : <p class="message-text"> {{msg.text}}  </p>
 	</li>
 </ul>
