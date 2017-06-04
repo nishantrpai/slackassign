@@ -1,11 +1,13 @@
-<h2 class="channel-name">{{channel.name}}</h2>
+<h2 class="channel.name" ng-if="current">{{current}}</h2>
 
 <ul class="message-list">
 	<li ng-repeat="msg in messages">
-		<p class="message-sender"> <b>{{msg.name}}</b> </p> : <p class="message-text"> {{msg.text}} </p>
+		<p class="message-sender"> <b>{{msg.user}}</b> </p> : <p class="message-text"> {{msg.text}}  </p>
 	</li>
 </ul>
 
+
+<!--
 <form autocomplete="off" ng-submit="addEntry()">
 	<div class="form-group">
 		<input class="form-control message" type="text" ng-model="userMesage.text">
@@ -14,3 +16,5 @@
 	<button  type="submit" class="btn btn-success message-button">Submit</button>
 
 </form>
+
+-->

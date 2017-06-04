@@ -53,3 +53,7 @@
 .channel-name{
 	color: #777;
 }
+
+.channelname{
+	cursor:pointer;
+}
